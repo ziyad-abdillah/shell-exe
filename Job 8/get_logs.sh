@@ -1,6 +1,6 @@
 #!/bin/bash
 
-last | wc -l > ~/shell-exe/'Job 8'/"number_connection-$(date +%d-%m-%Y-%R).txt"
+last | wc -l > ~/Document/shell-exe/'Job 8'/Backup/"number_connection-$(date +%d-%m-%Y-%R).txt"
 
 mkdir -p Backup 
 
